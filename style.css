@@ -1,0 +1,134 @@
+.event-storer {
+    display: flex;
+    flex-direction: column;
+}
+
+.event-container {
+    border: 1px solid black;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin: auto;
+}
+
+.event-level {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+}
+
+.dndevent-panel-normal {
+    border: 0.5px solid black;
+    background-color: rgb(255, 214, 159);
+    width: 130px;
+    height: 160px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dndevent-panel-hover {
+    border: 0.5px solid black;
+    background-color: rgb(177, 149, 111);
+    width: 140px;
+    height: 170px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dndevent-panel-selected {
+    border: 5px solid black;
+    background-color: rgb(177, 149, 111);
+    width: 140px;
+    height: 170px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-panel {
+    width: 120px;
+    height: 150px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+.one-event-button {
+    height: 100px; 
+    width: 80px;
+}
+
+.inside-dndevent {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    padding-bottom: 1px;
+}
+
+.attack-type-area {
+    display: flex;
+    flex-direction: column;
+    padding-right: 5px;
+}
+
+.num-input {
+    width: 49px;
+    height: 20px;
+    resize: none;
+}
+
+#selector-box {
+    border: 2px solid rgb(92, 92, 227);
+    background-color: rgba(143, 143, 227, 0.5);
+}
+
+.top-stuff {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 90%;
+}
+
+.chance-stuff {
+    margin: auto; 
+    width: 90%;
+}
+
+.seperator-line {
+    margin: auto;
+    width: 99%;
+    border: 1px solid black;
+}
+
+.storer-name {
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+    min-width: 20px;
+    min-height: 40px;
+    height: 40px;
+}
+
+#one-storer-button {
+    position: absolute;
+    left: 44.897959183%;
+    width: 150px;
+    height: 100px;
+    margin-top: 5px;
+}
